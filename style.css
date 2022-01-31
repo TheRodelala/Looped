@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 100px;
+}
+
+.logo-looped {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.logo {
+    height: auto;
+    width: 70px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.follow-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.follow{
+    text-align: center;
+    margin: 0px;
+    color: red;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    padding: 8px 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+
+#sc {
+    border-right: none;
+}
+
+#fb {
+    border-left: none;
+    border-right: none;
+}
+
+#ig {
+    border-left: none;
+}
+
+.quote-photo {
+    background-image: url("./images/stage.jpg");
+    background-color: #cccccc; 
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.quote {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 70px;
+    padding-top: 600px;
+}
+
+.next-event {
+    background-image: url("./images/next-event.jpg");
+    background-color: #cccccc; 
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+p{
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0px;
+}
+
+.header {
+    padding-top: 400px;
+    margin: 0px;
+    font-size: 50px;
+}
