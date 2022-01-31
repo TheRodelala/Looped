@@ -89,7 +89,7 @@ button {
     justify-content: center;
     align-items: flex-end;
     font-size: 70px;
-    padding-top: 600px;
+    padding-top: 500px;
 }
 
 .next-event {
@@ -111,7 +111,65 @@ p{
 }
 
 .header {
-    padding-top: 400px;
+    padding-top: 200px;
     margin: 0px;
     font-size: 50px;
+}
+
+.past-event {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.aney {
+    background-image: url("./images/aneyf.jpg");
+    background-color: #cccccc; 
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.bwsk {
+    background-image: url("./images/bwsk.jpg");
+    background-color: #cccccc; 
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.Synthesis {
+    background-image: url("./images/synthesis.jpg");
+    background-color: #cccccc; 
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.aney,
+.bwsk,
+.Synthesis {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+#aney,
+#bwsk,
+#synthesis {
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    border: solid 1px white;
 }
